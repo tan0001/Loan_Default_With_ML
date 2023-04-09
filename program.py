@@ -15,7 +15,7 @@ loan_data = pd.concat([loan_data, dummy_vars], axis=1)
 
 # Split data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(
-    loan_data[['income', 'credit_score', 'loan_amount', 'self-employed', 'employed','nth_amount']],
+    loan_data[['income', 'credit_score', 'loan_amount', 'employed-status', 'employed','nth_amount']],
     loan_data[['approved','default']],
     test_size=0.2,
     random_state=42
