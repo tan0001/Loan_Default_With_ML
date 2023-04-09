@@ -1,0 +1,6 @@
+income,credit_score,loan_amount,employmentstatus,default
+45000,600,20000,Employed,0
+70000,700,40000,Unemployed,1
+60000,650,30000,Employed,0
+80000,750,50000,Employed,1
+40000,550,15000,Unemployed,1
