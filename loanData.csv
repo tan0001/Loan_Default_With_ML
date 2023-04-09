@@ -1,4 +1,4 @@
-income,credit_score,loan_amount,self-employed,employed,nth_amount
+income,credit_score,loan_amount,employed-status,employed,nth_amount
 50000,600,10000,employed,0,20000.0
 60000,650,20000,employed,0,24000.0
 70000,700,30000,self-employed,1,28000.0
